@@ -6,7 +6,7 @@ spring:
 #      uri: http://localhost:1201/
 #      连接加密的配置中心
       uri: http://localhost:1202/ 
-      profile: dev
+      profile: default
       label: master
 
 server: 

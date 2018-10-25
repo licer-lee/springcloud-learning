@@ -5,4 +5,4 @@ info:
 spring: 
   datasource: 
     username: root
-    password: 'e2a4f1680029f1a14edaf5e48427c52f40deaa6903b8d2f6e1b4172d60b001db'
+    password: '{cipher}AQAXy5X2Pqx8eU24Xhm9TA3/irnTTQL71189uRze18aMGQJH6pIDtbcSBXMzqHBLyEUMUMGJQPVY0BqUh5tCl6BbzS4PMGiH7FlEvHlV00tsCcYWdli/GnWBkVShA/c9iRgmYaI0lbKSwSDYXOmSyBIN7G6Ly23qFie/Jq6xmLllMZ4CKhEKt+wcjvwiwpIQFiOas95pTU++b42rP8nx+vNcbnTxUEoGiM3DE7GTHECttXJZzHFEMq0nqTTn/8VjCn9hiZh8ZJdCihcYLx3G2YdXU1GoDDw2k8wzDucPq6/fkdJQJVtPFd7rYW/vPpr9DZCtTazEMaOtECuqb00SpzuiERVeiD/Fu/CFPHOrZ4BTAdyBB1D5aeP/pEeT7X9h430='
