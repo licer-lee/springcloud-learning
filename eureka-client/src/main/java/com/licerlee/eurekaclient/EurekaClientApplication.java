@@ -1,5 +1,7 @@
 package com.licerlee.eurekaclient;
 
+import java.util.concurrent.TimeUnit;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
@@ -22,7 +24,8 @@ public class EurekaClientApplication {
 	DiscoveryClient discoveryClient;
 
 	@GetMapping("/dc")
-	public String dc() {
+	public String dc() throws InterruptedException {
+		TimeUnit.SECONDS.sleep(5);
 		String services = "Services: " + discoveryClient.getServices();
 		System.out.println(services);
 		return services;

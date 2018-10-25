@@ -1,6 +1,6 @@
 info:
   profile: default
-  from: v-1.1
+  from: v-1.2
   
 spring: 
   datasource: 
