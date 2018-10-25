@@ -1,0 +1,8 @@
+info:
+  profile: default
+  from: v-1.1
+  
+spring: 
+  datasource: 
+    username: root
+    password: '{cipher}AQAXy5X2Pqx8eU24Xhm9TA3/irnTTQL71189uRze18aMGQJH6pIDtbcSBXMzqHBLyEUMUMGJQPVY0BqUh5tCl6BbzS4PMGiH7FlEvHlV00tsCcYWdli/GnWBkVShA/c9iRgmYaI0lbKSwSDYXOmSyBIN7G6Ly23qFie/Jq6xmLllMZ4CKhEKt+wcjvwiwpIQFiOas95pTU++b42rP8nx+vNcbnTxUEoGiM3DE7GTHECttXJZzHFEMq0nqTTn/8VjCn9hiZh8ZJdCihcYLx3G2YdXU1GoDDw2k8wzDucPq6/fkdJQJVtPFd7rYW/vPpr9DZCtTazEMaOtECuqb00SpzuiERVeiD/Fu/CFPHOrZ4BTAdyBB1D5aeP/pEeT7X9h430='
