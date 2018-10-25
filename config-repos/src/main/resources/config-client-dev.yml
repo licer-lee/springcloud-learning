@@ -1,0 +1,8 @@
+info: 
+  profile: dev
+  from: dev
+  
+spring: 
+  datasource: 
+    username: root
+    password: '{cipher}4613ae936ba0c3b2134f72514dedf13a4a17fadb570d9d83400b27f45b3b5adb'

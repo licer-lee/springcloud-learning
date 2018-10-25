@@ -1,0 +1,18 @@
+
+# encrypt.key 必须配置在bootstrap.yml文件中，否则报错
+#{
+# "description":"No key was installed for encryption service",
+# "status":"NO_KEY"
+#}
+
+# 配置对称加密密钥
+#encrypt: 
+#  key: didispace
+
+# 非对称加密密钥配置
+encrypt: 
+  key-store: 
+    location: classpath:/config-server.keystore
+    alias: config-server
+    password: 123456
+    secret: 123456

@@ -3,7 +3,9 @@ spring:
     name: config-client
   cloud: 
     config: 
-      uri: http://localhost:1201/
+#      uri: http://localhost:1201/
+#      连接加密的配置中心
+      uri: http://localhost:1202/ 
       profile: dev
       label: master
 

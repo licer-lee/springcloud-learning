@@ -20,6 +20,9 @@ public class ConfigClientApplication {
 	@Value("${info.from}") // git配置文件里的key
 	String from;
 
+	@Value("${spring.datasource.password}") 
+	String password;
+	
 	@RequestMapping(value = "/profile")
 	public String profile() {
 		return profile;
@@ -28,5 +31,10 @@ public class ConfigClientApplication {
 	@RequestMapping(value = "/from")
 	public String from() {
 		return from;
+	}
+	
+	@RequestMapping(value = "/pd")
+	public String pd() {
+		return password;
 	}
 }
