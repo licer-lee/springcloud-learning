@@ -1,0 +1,15 @@
+spring: 
+  application: 
+    name: config-server
+  cloud: 
+    config: 
+      server: 
+        git: 
+          uri: https://github.com/licer-lee/springcloud-config-repos/
+          # 如果Git仓库为公开仓库，可以不填写用户名和密码，如果是私有仓库需要填写
+server: 
+  port: 1202
+  
+security: 
+  key: didispace
+  
