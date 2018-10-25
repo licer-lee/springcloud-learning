@@ -5,4 +5,4 @@ info:
 spring: 
   datasource: 
     username: root
-    password: '{cipher}e2a4f1680029f1a14edaf5e48427c52f40deaa6903b8d2f6e1b4172d60b001db'
+    password: 'e2a4f1680029f1a14edaf5e48427c52f40deaa6903b8d2f6e1b4172d60b001db'

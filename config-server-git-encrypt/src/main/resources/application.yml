@@ -5,7 +5,8 @@ spring:
     config: 
       server: 
         git: 
-          uri: https://github.com/licer-lee/springcloud-config-repos/
+          uri: https://github.com/licer-lee/springcloud-learning/
+          search-paths: src/main/resources/
           # 如果Git仓库为公开仓库，可以不填写用户名和密码，如果是私有仓库需要填写
 server: 
   port: 1202
