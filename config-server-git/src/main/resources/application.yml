@@ -6,9 +6,6 @@ spring:
       server: 
         git: 
           uri: https://github.com/licer-lee/springcloud-config-repos/
-#         search-paths: repo
-#          username: 
-#          password: 
 server: 
   port: 1201
   
