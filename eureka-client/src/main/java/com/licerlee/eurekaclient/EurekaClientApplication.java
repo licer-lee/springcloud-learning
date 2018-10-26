@@ -25,7 +25,8 @@ public class EurekaClientApplication {
 
 	@GetMapping("/dc")
 	public String dc() throws InterruptedException {
-		TimeUnit.SECONDS.sleep(5);
+		// 模拟请求超时
+//		TimeUnit.SECONDS.sleep(5);
 		String services = "Services: " + discoveryClient.getServices();
 		System.out.println(services);
 		return services;
