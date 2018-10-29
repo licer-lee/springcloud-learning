@@ -1,7 +1,7 @@
-# 开发环境
+# 准生产环境
 info: 
-  profile: dev
-  from: dev-v1.0
+  profile: preprod
+  from: preprod-v1.0
   
 spring: 
   datasource: 

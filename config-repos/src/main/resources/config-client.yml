@@ -1,5 +1,6 @@
+# 默认环境
 info:
-  profile: test
+  profile: dev
   from: default 
   
 spring: 
