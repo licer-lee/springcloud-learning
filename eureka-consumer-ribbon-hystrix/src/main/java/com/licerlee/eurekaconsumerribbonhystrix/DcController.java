@@ -1,4 +1,4 @@
-package com.licerlee.eurekaconsumerribbon;
+package com.licerlee.eurekaconsumerribbonhystrix;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
