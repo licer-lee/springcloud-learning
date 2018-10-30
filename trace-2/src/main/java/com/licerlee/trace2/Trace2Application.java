@@ -1,5 +1,7 @@
 package com.licerlee.trace2;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -17,8 +19,10 @@ public class Trace2Application {
 	private final Logger logger = LoggerFactory.getLogger(getClass());
 
 	@RequestMapping(value = "/trace-2", method = RequestMethod.GET)
-	public String trace() {
+	public String trace(HttpServletRequest request) {
 		logger.info("===<call trace-2>===");
+		logger.info("===<call trace-2, TraceId={}, SpanId={}>===",
+				request.getHeader("X-B3-TraceId"), request.getHeader("X-B3-SpanId"));
 		return "Trace";
 	}
 
