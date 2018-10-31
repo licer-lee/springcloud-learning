@@ -12,7 +12,8 @@
 # 非对称加密密钥配置
 encrypt: 
   key-store: 
-    location: classpath:/config-server.keystore
+#    location: classpath:/config-server.keystore
+    location: file:///${user.home}/config-server.keystore
     alias: config-server
     password: 123456
     secret: 123456
